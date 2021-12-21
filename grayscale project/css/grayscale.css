@@ -1,0 +1,523 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#page-top {
+  background-color: #000000;
+  color: black;
+}
+
+/* h1 {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+} */
+p {
+  color: #000000;
+}
+
+/* .container {
+  padding: 3% 10%;
+} */
+.mx-auto {
+  margin-top: 300px;
+}
+
+/* navbar */
+.navbar {
+  font-weight: 400 !important;
+  font-size: .9rem !important;
+  letter-spacing: .1rem;
+  background-color: : rgba(0, 0, 0, 0.6) !important;
+  text-align: left !important;
+}
+
+.navbar-dark.navbar-brand {
+  color: black !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-family: "Montserrat";
+}
+
+.nav-link {
+  font-size: 1.0rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+  color: #000000 !important;
+}
+
+#mainNav.navbar-brand {
+  padding: 0.5rem 0 !important;
+}
+
+/* landing page */
+.home-inner {
+  background-image: url('../gray image/bg-masthead.jpg')
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 6.0rem;
+  line-height: 6.0rem;
+  font-weight: 700;
+  letter-spacing: 0.8rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .8rem;
+}
+
+.caption h2 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+/* about section */
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.mx-auto {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.col-lg-8 {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+p {
+  margin-top: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img {
+  vertical-align: middle;
+  border-style: none;
+  padding-bottom: 5px;
+}
+
+/* project section */
+.projects-section {
+  padding: 10rem;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.container {
+  max-width: 1140px;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* featured project section */
+.mb-lg-5, my-lg-5 {
+  margin-bottom: 3rem !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+}
+
+.col-xl-8 {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+
+.col-xl-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.projects-section .featured-text {
+  padding: 0 0 0 2rem;
+  border-left: 0.5rem solid #64a19d;
+}
+
+.text-lg-left {
+  text-align: left !important;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  margin-top: 0;
+  color: #000000 !important;
+}
+
+.text-black-50 {
+  color: rgba(0, 0, 0, .5) !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* project one row section */
+.mb-lg-0 {
+  margin-bottom: 0 !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.project-text {
+  padding: 5rem;
+  font-size: 90%;
+}
+
+.text-lg-left {
+  text-align: left !important;
+}
+
+.my-auto {
+  margin-bottom: auto !important;
+  margin-top: auto !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.project-text hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 30%;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.d-lg-block {
+  display: block !important;
+}
+
+hr {
+  margin-top: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* project two row section */
+.order-lg-first {
+  order: -1;
+}
+
+.text-lg-right {
+  text-align: right !important;
+}
+
+/* signup section */
+.signup-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%),
+    url('../gray image/bg-signup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto, .mx-auto {
+  margin-right: auto !important;
+}
+
+.col-md-10 {
+  position: relative;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.fa-2x {
+  font-size: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.form-inline {
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.signup-section .form-inline input {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Nunito', sans-serif;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.form-inline .form-control {
+  width: auto;
+  vertical-align: middle;
+}
+
+.mr-sm-2 {
+  margin-right: 0.5rem !important;
+}
+
+.mb-sm-0 {
+  margin-bottom: 0 !important;
+}
+
+.flex-fill {
+  flex: 1 1 auto !important;
+}
+
+.btn {
+  box-shadow: inset 0 0.1875rem 0rem 0px rgb(0 0 0 / 10%) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 60%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.btn-primary {
+  border-width: medium !important;
+  border-radius: 10 !important;
+  text-transform: uppercase !important;
+  font-size: 1.2rem !important;
+  padding: .6rem 1.2rem !important;
+  margin: 1rem !important;
+  color: white !important;
+  background-color: #1ebba3 !important;
+  border-color: #1ebba3 !important;
+}
+
+.btn-primary:hover {
+  background-color: #189582 !important;
+  border-color: #189582 !important;
+}
+
+/* contact section */
+.contact-section {
+  padding-top: 5rem;
+}
+
+.mb-md-0 {
+  margin-bottom: 0 !important;
+}
+
+.col-md-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+}
+
+.py-4 {
+  padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem !important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card h4 {
+  font-size: 0.8rem;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.15rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+  overflow: visible;
+}
+
+.my-4 {
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+}
+
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+a {
+  color: #64a19d;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+/* footer section */
+.footer{
+  padding: 5rem;
+}
+.foot{
+  border-color: white;
+  border-style: none;
+  border-top-style: solid;
+  width: 100%;
+  border-width: 1px;
+}
